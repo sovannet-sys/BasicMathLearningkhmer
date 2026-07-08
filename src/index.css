@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Kantumruy+Pro:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Kantumruy Pro", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: #FFFBEB;
+  color: #78350f;
+  font-family: "Kantumruy Pro", "Inter", sans-serif;
+}
+
+/* Custom 3D button shadow classes to assist standard utility */
+.btn-3d-amber {
+  background-color: #f59e0b;
+  color: white;
+  box-shadow: 0 6px 0 #d97706;
+  transition: all 0.1s ease;
+}
+.btn-3d-amber:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #d97706;
+}
+
+.btn-3d-emerald {
+  background-color: #10b981;
+  color: white;
+  box-shadow: 0 6px 0 #047857;
+  transition: all 0.1s ease;
+}
+.btn-3d-emerald:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #047857;
+}
+
